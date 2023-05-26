@@ -59,8 +59,8 @@ img{
 .comida{
     width: 150px}
 .comida:hover{
-    width: 200px;
-    transition: 0.3s;}
+    width: 180px;
+    transition: 1s;}
 .pratos{
     display: flex;
     justify-content: space-around;
@@ -122,3 +122,94 @@ img{
 .rede-nome{
     font: 300 18px 'mont',sans-serif;
     color: #fff;}
+/* media até 400px */
+@media screen and (max-width: 400px) {
+    .conteiner{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: block;}
+    .nossaComida,.panela{
+        width: 90vw;
+        height: auto;}
+    .imagem{
+        text-align: center;}
+    .titulo{
+        font: 500 23px 'mont',sans-serif;
+        margin: 15px 0}
+    .texto{
+        font: 300 15px 'mont',sans-serif;}
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;}
+    .item{
+        font: 400 8px 'mont',sans-serif;
+    padding: 0 3px;}
+    .item:hover{
+        font: 400 9px 'mont',sans-serif;}
+    .logo{
+        width: 70vw;
+        height: auto;
+        margin-left: 25px}
+    #header .menu {
+        display: block;
+        text-align: center;}
+    .conteudo{
+        margin: 0 20px;
+        padding: 0;
+        border: 0;}
+    .prato{
+        width: 80vw;
+        margin: 10px 0;}
+    .cardapio{
+        margin: 0 20px;}
+    #nossaEquipe .conteiner{
+        display: flex;
+        flex-direction: column-reverse;}
+    .section{
+        margin: 20px 0 0;}
+    #contato{
+        margin: 0;
+        border: 0;
+        padding: 0;}
+    #contato .conteiner{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        flex-wrap: nowrap;
+        margin-left: 10px}
+    .name{
+        width: 90vw;
+        text-align: center;
+        margin: 0;}
+    .name .amm{
+        font: 500 30px 'mont',sans-serif;
+        margin: 10px 0px 0px;}
+    .cs{
+        font: 400 40px 'mont',sans-serif;  }
+    .redes{
+        margin: 20px 0;
+        width: 100vw;
+        display: block;}
+    .rede{
+        display: flex;
+        text-align: center;
+        margin: 10px 0;
+        width: 90vw;}
+    .endereco{
+        width: 90vw;
+        margin-bottom: 35px;}
+    .panela{
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+
+}
